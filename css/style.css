@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  text-decoration: none;
+}
+.container {
+  background-image: url(../IMG/111565.jpg);
+  background-repeat: no-repeat;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.title_function {
+  text-align: center;
+  width: 720px;
+  background-color: rgb(62, 151, 86);
+  color: white;
+}
+.list_box_function {
+  list-style: none;
+  padding: 1% 0% 1% 0%;
+  max-width: 720px;
+  background-color: rgb(153, 210, 210);
+}
+.list_function {
+  width: 90%;
+  padding-left: 10px;
+  font-size: 22px;
+  background-color: white;
+  line-height: 38px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.title_const {
+  border-radius: 15px 15px 0px 0px;
+  text-align: center;
+  width: 720px;
+  background-color: rgb(62, 151, 86);
+  color: white;
+}
+.list_box_const {
+  list-style: none;
+  padding: 1% 0% 1% 0%;
+  max-width: 720px;
+  max-height: 350px;
+  background-color: rgb(153, 210, 210);
+}
+.text_const {
+  width: 90%;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 22px;
+  background-color: white;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+.title_rand {
+  text-align: center;
+  width: 720px;
+  background-color: rgb(62, 151, 86);
+  color: white;
+}
+.rand_box {
+  list-style: none;
+  max-width: 720px;
+  max-height: 80px;
+  background-color:rgb(153, 210, 210);
+  border-radius: 0px 0px 15px 15px;
+  padding: 1% 0% 1% 0%;
+}
+.rand_text {
+  width: 90%;
+  border: 1px solid black;
+  padding-left: 10px;
+  font-size: 22px;
+  background-color: white;
+  line-height: 35px;
+  cursor: pointer;
+}
+
