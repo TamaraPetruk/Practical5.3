@@ -1,76 +1,149 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Practical5.3</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="box_container">
-            
-<h1 class="title_const">КОНСТАНТИ</h1>
-            <ul class="list_box_const">
-                <li class="text_const">Значення константи e = <span id="e_const"></span></li>
-                <li class="text_const">Значення константи π = <span id="pi_const"></span></li>
-                <li class="text_const">Десятковий логарифм постійної Ейлера (e) = <span id="log_e_dec"></span></li>
-                <li class="text_const">Двійковий логарифм постійної Ейлера (e) = <span id="log_e_bin"></span></li>
-                <li class="text_const">Натуральний логарифм числа 10 = <span id="log_10"></span></li>
-                <li class="text_const">Натуральний логарифм числа 2 = <span id="log_2"></span></li>
-                <li class="text_const">Корінь квадратний із двох = <span id="sqrt_2"></span></li>
-                <li class="text_const">Корінь квадратний з однієї другої = <span id="sqrt_half"></span></li>
-            </ul>
-            <h1 class="title_function">ФУНКЦІЇ</h1>
-            <ul class="list_box_function">
-                <li class="list_function">Результат зведення в ступінь: 4^2 =<span id="pow(4,2)"></span></li>
-                <li class="list_function">Результат добування квадратного кореня з 4= <span id="sqrt_4"></span></li>
-                <li class="list_function">Результат добування квадратного кореня з -9= <span id="sqrt_-9"></span></li>
-                <li class="list_function">Результат обчислення косинуса нуля радіан= <span id="cos_0"></span></li>
-                <li class="list_function">Результат обчислення абсолютного значення -9=<span id="absol_-9"></span></li>
-                <li class="list_function">Косинус 180 градусів (π радіан): y = <span id="cos_180"></span></li>
-                <li class="list_function">Результат обчислення арккосинуса нуля : y = <span id="acos_0"></span></li>
-                <li class="list_function">Результат обчислення синуса нуля радіан: y = <span id="sin_0"></span></li>
-                <li class="list_function">Синус 90 градусів (π /2 радіан): y = <span id="sin_90"></span></li>
-                <li class="list_function">Результат обчислення арксинуса одиниці: y = <span id="asin_1"></span></li>
+      <div class="box_container">
+        <h1 class="title_const">КОНСТАНТИ</h1>
+        <ul class="list_box_const">
+          <li class="text_const">
+            Значення константи e = <span id="e_const"></span>
+          </li>
+          <li class="text_const">
+            Значення константи π = <span id="pi_const"></span>
+          </li>
+          <li class="text_const">
+            Десятковий логарифм постійної Ейлера (e) =
+            <span id="log_e_dec"></span>
+          </li>
+          <li class="text_const">
+            Двійковий логарифм постійної Ейлера (e) =
+            <span id="log_e_bin"></span>
+          </li>
+          <li class="text_const">
+            Натуральний логарифм числа 10 = <span id="log_10"></span>
+          </li>
+          <li class="text_const">
+            Натуральний логарифм числа 2 = <span id="log_2"></span>
+          </li>
+          <li class="text_const">
+            Корінь квадратний із двох = <span id="sqrt_2"></span>
+          </li>
+          <li class="text_const">
+            Корінь квадратний з однієї другої = <span id="sqrt_half"></span>
+          </li>
+        </ul>
+        <h1 class="title_function">ФУНКЦІЇ</h1>
+        <ul class="list_box_function">
+          <li class="list_function">
+            Результат зведення в ступінь: 4^2 =<span id="pow(4,2)"></span>
+          </li>
+          <li class="list_function">
+            Результат добування квадратного кореня з 4=
+            <span id="sqrt_4"></span>
+          </li>
+          <li class="list_function">
+            Результат добування квадратного кореня з -9=
+            <span id="sqrt_-9"></span>
+          </li>
+          <li class="list_function">
+            Результат обчислення косинуса нуля радіан= <span id="cos_0"></span>
+          </li>
+          <li class="list_function">
+            Результат обчислення абсолютного значення -9=<span
+              id="absol_-9"
+            ></span>
+          </li>
+          <li class="list_function">
+            Косинус 180 градусів (π радіан): y = <span id="cos_180"></span>
+          </li>
+          <li class="list_function">
+            Результат обчислення арккосинуса нуля : y =
+            <span id="acos_0"></span>
+          </li>
+          <li class="list_function">
+            Результат обчислення синуса нуля радіан: y =
+            <span id="sin_0"></span>
+          </li>
+          <li class="list_function">
+            Синус 90 градусів (π /2 радіан): y = <span id="sin_90"></span>
+          </li>
+          <li class="list_function">
+            Результат обчислення арксинуса одиниці: y =
+            <span id="asin_1"></span>
+          </li>
+          <li class="list_function">Тангенс 45 градусів (π /4 радіан): y = <span id="tan_45"></span></li>
+          <li class="list_function">Результат обчислення арктангенса одиниці: y = <span id="atan_1"></span></li>
+          <li class="list_function">Результат зведення е в ступінь 2: y = <span id="pow(e,2)"></span></li>
+          <li class="list_function">Натуральний логарифм від e2: y = <span id="ln(e^2)"></span></li>
+          <li class="list_function">Результат обчислення десяткового логарифма від числа 100: y = <span id="log10_100"></span></li>
+          <li class="list_function">Результат обчислення двійкового логарифма від числа 8: y =  <span id="log2_8"></span></li>
+          <li class="list_function">Тангенс 45 градусів (з округленням): y = <span id="tan45_round"></span></li>
+          <li class="list_function">Результат округлення числа 1,00123 у більшу сторону: y = <span id="round_1,00123"></span></li>
+          <li class="list_function">Результат округлення числа -3.1234 у більшу сторону: y = <span id="round_-3,1234"></span></li>
+          <li class="list_function">Результат округлення числа 1,00123 у меншу сторону: y = <span id="1round_less"></span></li>
+          <li class="list_function">Результат округлення числа -3.1234 у меншу сторону: y =<span id="-3round_less"></span></li>
+          <li class="list_function">Результат округлення числа 1,44 за правилами арифметики: y =  <span id="round1"></span></li>
+          <li class="list_function">Результат округлення числа 1,54 за правилами арифметики: y =  <span id="round2"></span></li>
+          <li class="list_function">Вибір найбільшого із двох чисел 4 й 2: y = <span id="max"></span></li>
+          <li class="list_function">Вибір найменшого із двох чисел 4 й 2: y =<span id="min"></span></li>
+        </ul>
 
-            </ul>
-
-            <h1 class="title_rand">ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ</h1>
-            <div class="rand_box">
-                <p class="rand_text">Формування random чисел в інтервалі [0;1]: y = <span id="random_number"></span></p>
-            </div>
-            
+        <h1 class="title_rand">ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ</h1>
+        <div class="rand_box">
+          <p class="rand_text">
+            Формування random чисел в інтервалі [0;1]: y =
+            <span id="random_number"></span>
+          </p>
         </div>
-    </div>        
+      </div>
+    </div>
 
     <script>
-        // ФУНКЦІЇ
-        document.getElementById('pow(4,2)').textContent = Math.pow(4,2);
-        document.getElementById('sqrt_4').textContent = Math.sqrt(4);
-        document.getElementById('sqrt_-9').textContent = Math.sqrt(-9);
-        document.getElementById('cos_0').textContent = Math.cos(0);
-        document.getElementById('absol_-9').textContent = Math.abs(-9);
-        document.getElementById('cos_180').textContent = Math.cos(Math.PI);
-        document.getElementById('acos_0').textContent = Math.acos(0);
-        document.getElementById('sin_0').textContent = Math.sin(0);
-        document.getElementById('sin_90').textContent = Math.sin(Math.PI / 2);
-        document.getElementById('asin_1').textContent = Math.asin(1);
+      // ФУНКЦІЇ
+      document.getElementById("pow(4,2)").textContent = Math.pow(4, 2);
+      document.getElementById("sqrt_4").textContent = Math.sqrt(4);
+      document.getElementById("sqrt_-9").textContent = Math.sqrt(-9);
+      document.getElementById("cos_0").textContent = Math.cos(0);
+      document.getElementById("absol_-9").textContent = Math.abs(-9);
+      document.getElementById("cos_180").textContent = Math.cos(Math.PI);
+      document.getElementById("acos_0").textContent = Math.acos(0);
+      document.getElementById("sin_0").textContent = Math.sin(0);
+      document.getElementById("sin_90").textContent = Math.sin(Math.PI / 2);
+      document.getElementById("asin_1").textContent = Math.asin(1);
+      document.getElementById("tan_45").textContent = Math.tan(Math.PI / 4);
+      document.getElementById("atan_1").textContent = Math.atan(1);
+      document.getElementById("pow(e,2)").textContent = Math.pow(Math.E,2);
+      document.getElementById("ln(e^2)").textContent = Math.log(Math.pow(Math.E,2));
+      document.getElementById("log10_100").textContent = Math.log10(100);
+      document.getElementById("log2_8").textContent = Math.log2(8);
+      document.getElementById("tan45_round").textContent = Math.round(Math.tan(45 * Math.PI / 180));
+      document.getElementById("round_1,00123").textContent = Math.ceil(1.00123);
+      document.getElementById("round_-3,1234").textContent = Math.ceil(-3.1234);
+      document.getElementById("1round_less").textContent = Math.floor(1.00123);
+      document.getElementById("-3round_less").textContent = Math.floor(-3.1234);
+      document.getElementById("round1").textContent = Math.round(1.44);
+      document.getElementById("round2").textContent = Math.round(1.54);
+      document.getElementById("max").textContent = Math.max(4, 2);
+      document.getElementById("min").textContent = Math.min(4, 2);
 
+      // КОНСТАНТИ
+      document.getElementById("e_const").textContent = Math.E;
+      document.getElementById("pi_const").textContent = Math.PI;
+      document.getElementById("log_e_dec").textContent = Math.log10(Math.E);
+      document.getElementById("log_e_bin").textContent = Math.log2(Math.E);
+      document.getElementById("log_10").textContent = Math.log10(10);
+      document.getElementById("log_2").textContent = Math.log2(2);
+      document.getElementById("sqrt_2").textContent = Math.sqrt(2);
+      document.getElementById("sqrt_half").textContent = Math.sqrt(0.5);
 
-        // КОНСТАНТИ
-        document.getElementById('e_const').textContent = Math.E;
-        document.getElementById('pi_const').textContent = Math.PI;
-        document.getElementById('log_e_dec').textContent = Math.log10(Math.E);
-        document.getElementById('log_e_bin').textContent = Math.log2(Math.E);
-        document.getElementById('log_10').textContent = Math.log10(10);
-        document.getElementById('log_2').textContent = Math.log2(2);
-        document.getElementById('sqrt_2').textContent = Math.sqrt(2);
-        document.getElementById('sqrt_half').textContent = Math.sqrt(0.5);
-
-        
-        // ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ
-        document.getElementById('random_number').textContent = Math.random();
+      // ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ
+      document.getElementById("random_number").textContent = Math.random();
     </script>
-</body>
+  </body>
 </html>
